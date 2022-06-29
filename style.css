@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: bisque;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(243, 29, 228);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+  background: red;
+  height: 100px;
+
+}
+
+#color-red {
+  background: red;
+}
+
+#color-green {
+  background: green;
+}
+
+#color-blue {
+  background: blue;
+}
+
+#color-yellow {
+  background: yellow;
+}
