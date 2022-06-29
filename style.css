@@ -13,24 +13,45 @@ h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-div {
-  background: red;
-  height: 100px;
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+
+#game-board {
+  position: relative;
+  background: black;
+  height: 1000px;
+  border-radius: 100%;
 }
 
 #color-red {
   background: red;
+  height: 200px;
+  width: 200px;
+  border-top-left-radius: 100%;
 }
 
 #color-green {
   background: green;
+  height: 200px;
+  width: 200px;
+  border-top-right-radius: 100%;
+
 }
 
 #color-blue {
   background: blue;
+  height: 200px;
+  width: 200px;
+  border-bottom-right-radius: 100%;
+
 }
 
 #color-yellow {
   background: yellow;
+  height: 200px;
+  width: 200px;
+  border-bottom-left-radius: 100%;
+
 }
