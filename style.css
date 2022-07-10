@@ -19,13 +19,20 @@ h2 {
 
 
 #game-board {
+  display: inline-block;
   position: relative;
   background: black;
   height: 500px;
   width: 500px;
   border-radius: 100%;
-  display: flex;
+  /* display: flex;
+  flex: flex-wrap; */
   
+}
+
+.game-piece-sizes-and-details {
+  display: inline-block;
+
 }
 
 #color-red {
@@ -47,7 +54,7 @@ h2 {
   background: blue;
   height: 200px;
   width: 200px;
-  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
 
 }
 
@@ -55,6 +62,6 @@ h2 {
   background: yellow;
   height: 200px;
   width: 200px;
-  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
 
 }
