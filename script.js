@@ -5,7 +5,9 @@ const redPiece = document.querySelector ("#color-red")
     "click", // event type
   
     function(event){
-      console.log("event", event.target)
+      console.log("event", event)
+      console.log("event.targer", event.target)
+
       
     } 
     
