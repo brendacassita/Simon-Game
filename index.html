@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>:)</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script defer src="script.js"></script>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Simon Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="script.js"></script>
+  </head>
 
-<body>
-  <h1>Simon Game</h1>
-  <h2>Score: 0</h2>
-
-  <div id="game-board">
-
-    <div id="top-row">
-      <div 
-        id="color-red"
-        class="game-piece-sizes-and-details">
-      </div>
-
-      <div 
-        id="color-green"
-        class="game-piece-sizes-and-details">
-      </div>
-    </div>
-
-    <div id="bottom-row">
-      <div 
-        id="color-blue"
-        class="game-piece-sizes-and-details">
-      </div>
-
-      <div 
-        id="color-yellow"
-        class="game-piece-sizes-and-details">
-      </div>
-    </div>
-
-  </div>
-
+  <body>
   
-
-  <!--
-This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
--->
-  <!-- <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>  -->
-</body>
+  
+    <div>
+        <h1 class="game-title-text">
+          <!-- Simon Says  -->
+        </h1>
+    </div>
+  
+    <div>
+        <h3 class="game-score-text">Score: 0</h3>
+        <!-- <h2 class="game-score-text">Score: 0</h1> -->
+    </div>
+  
+  
+    <div id="game-board">
+  
+      
+      <div id="top-row"> 
+        <div id="color-green"  
+             class="game-piece-sizes-and-details" >       
+        </div>
+        <div id="color-red"    
+             class="game-piece-sizes-and-details" >      
+        </div>
+      </div> 
+  
+        <div id="circle-illusion" >
+  <!--         Simon Game -->
+          <button id="circle-illusion-button"> START </button>
+          <h4 id="circle-illusion-text" > 
+            Simon Says 
+          </h4>
+        </div>
+      
+      <div id="bottom-row"> 
+        <div id="color-blue"   
+             class="game-piece-sizes-and-details" >      
+        </div>
+        <div id="color-yellow" 
+             class="game-piece-sizes-and-details" >      
+        </div>
+      </div> 
+        
+        
+    </div>
+  
+    
+  
+  
+  </body>
 
 </html>
